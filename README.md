@@ -1,12 +1,70 @@
-# React + Vite
+# 🚀 Harsh Pratap Singh - Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio! This is a **responsive, modern, and animated portfolio website** built using **React + Tailwind CSS**.
 
-Currently, two official plugins are available:
+It showcases my skills, projects, resume, and contact details in a visually appealing and mobile-friendly way.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 **Live Demo**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌐 [Visit My Portfolio](https://your-deployment-link.vercel.app/)  
+*(Update this link after deployment)*
+
+---
+
+## 🛠️ **Tech Stack**
+
+- **Frontend**: React.js (Vite)
+- **Styling**: Tailwind CSS
+- **Routing**: React Router DOM
+- **Icons**: React Icons
+- **Deployment**: Vercel
+- **Assets & Media**: Public folder structure for static files (resume, images)
+
+---
+
+## 🧑‍💻 **Features**
+
+✅ Responsive Navbar with Mobile Hamburger Menu  
+✅ Smooth Page Navigation with React Router  
+✅ Eye-catching Gradient Logo & Animated Hover Effects  
+✅ Profile Picture & About Section with Professional Summary  
+✅ Skills & Technologies Grid (with hover animations)  
+✅ Project Section with Pinned Featured Project + Screenshots  
+✅ Resume Section (View in New Tab + Download PDF Option)  
+✅ Beautiful Contact Page with LinkedIn & GitHub Links  
+✅ Fully Mobile Responsive  
+✅ Glassmorphism effects & subtle shadows for modern UI feel
+
+---
+
+## 📂 **Folder Structure**
+
+my-portfolio/
+├── public/
+│   ├── assets/
+│   │   ├── Home.png                # Screenshot of MEMEGRAM Project
+│   │   ├── rentease.png             # Screenshot of FinTech Project
+│   │   └── profile.jpg              # Profile Picture
+│   └── resumefinale.pdf             # Resume PDF file
+├── src/
+│   ├── assets/                      # Optional (Icons/Images if needed via imports)
+│   ├── components/                  # Reusable UI components
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   └── ProjectCard.jsx
+│   ├── pages/                       # Main Pages (Route-based)
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Resume.jsx
+│   │   └── Contact.jsx
+│   ├── App.jsx                      # Main Application Routes Setup
+│   └── main.jsx                     # Vite's React Entry Point
+├── .gitignore
+├── index.html                       # Vite's Root HTML File
+├── package.json
+├── tailwind.config.js
+└── README.md
